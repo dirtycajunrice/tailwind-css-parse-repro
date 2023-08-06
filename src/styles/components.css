@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+    .bg-gradient-gloss-green {
+        background-image: linear-gradient(180deg, #608C5B 0%, #406D3C 12.01%, #1B5113 12.02%, #053602 100%);
+    }
+}
