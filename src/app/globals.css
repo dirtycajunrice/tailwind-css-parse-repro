@@ -25,3 +25,21 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer base {
+  .some-base-class {
+    color: #0000FE;
+  }
+}
+
+@layer components {
+  .some-component-class {
+    color: #FE0000;
+  }
+}
+
+@layer utilities {
+  .some-utility-class {
+    color: #00FE00;
+  }
+}
